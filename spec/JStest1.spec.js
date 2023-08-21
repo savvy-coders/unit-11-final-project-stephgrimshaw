@@ -1,3 +1,4 @@
+const { getBtnAndShow } = require('../script.js')
 const jsdom = require('jsdom');
 const { JSDOM } = jsdom;
 const dom = new JSDOM('<!doctype html><html><body></body></html>');
