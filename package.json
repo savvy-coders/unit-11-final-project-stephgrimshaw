@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/savvy-coders/FS-Prep-Unit11-FinalProject#Unit11.md",
   "devDependencies": {
-    "cypress": "^12.17.4"
+    "cypress": "^12.17.4",
+    "jasmine": "^5.1.0"
   }
 }
