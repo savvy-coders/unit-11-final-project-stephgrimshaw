@@ -63,7 +63,7 @@ In the index.html file do the following:
 
 After completing the steps above your index.html web page should look something like this:
 
-![Sample of Index.html](images\indexSample.png)
+![Sample of Index.html](./images/indexSample.png)
 
 Now let's work on our second page. In the page2.html file do the following:
 
@@ -80,7 +80,7 @@ Now let's work on our second page. In the page2.html file do the following:
 After completing the steps above your page2.html web page should look something like this:
 
 \
-![page2 Sample](images\page2Sample.png)
+![page2 Sample](./images/page2Sample.png)
 \
 
 ## HTML Bonus (Optional)
@@ -153,9 +153,9 @@ Firstly, let's break our script.js file into three parts.
 - beneath the displayDateAndTime function, use document.getElementById() to get the timeCheckBtn \<button> that is in our index.html file
 - add an eventListener to the timeCheckBtn \<button> that listens for a click event and calls the displayDateAndTime function
 
-If you followed the steps correctly your script.js file should look something like this:
+If you followed the steps correctly your script.js file should look something like this (bear in mind it will NOT likely be EXACTLY this - some details may be altered in these code examples so that you are not being handed the answer! Make sure to compare the code sample against the requirements/instructions - do not just copy what you see here without thinking it through!):
 
-![alt_text](images\jsSample.png)
+![alt_text](./images/jsSample.png)
 
 And the button that you created will display the current date and time when you click it!
 
@@ -165,18 +165,18 @@ And the button that you created will display the current date and time when you 
 - inside the clearDateAndTime function, use document.getElementById() to get the time \<div> that is in our index.html file
 - add .innerHTML to the end of the time \<div> and set it equal to an empty string ''
 
-If you followed the steps above correctly your script.js file should look something like this now:
+If you followed the steps above correctly your script.js file should look something like this now (don't forget our caveat about this from Part 1!):
 
-![alt_text](images\js2Sample.png)
+![alt_text](./images/js2Sample.png)
 
 ## JavaScript Part 3: Calling Our Functions
 
 - call the getBtnAndShow function
 - call the pre-built setInterval() function, pass in the clearTimeAndDate function and a time interval of 5000
 
-Finally, your script.js file should look something like this:
+Finally, your script.js file should look something like this (remember our caveat!):
 
-![alt_text](images\js3Sample.png)
+![alt_text](./images/js3Sample.png)
 
 And once you click the button, the date and time will be displayed for 5 seconds then it will disappear!
 
